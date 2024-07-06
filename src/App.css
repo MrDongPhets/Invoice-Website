@@ -127,3 +127,56 @@ tbody tr td:nth-child(4) {
 tbody tr td:nth-child(5), tbody tr td:nth-child(6) {
   font-style: italic;
 }
+
+/* src/components/PopupForm.css */
+
+.open-modal-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+  margin-left: -6%;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.form-actions button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form-actions button[type="button"] {
+  background: #ccc;
+  margin-left: -6%;
+}
+
+.form-actions button[type="submit"] {
+  background: #007bff;
+  color: white;
+}

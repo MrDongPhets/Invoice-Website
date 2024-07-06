@@ -28,7 +28,7 @@ const Sidebar = () => {
             <li className="p-2 d-flex align-items-center">
              
               <div> <GoPersonFill size={20} /></div>
-              <div  className="link"><Link to="/invoice">Costumer</Link></div> 
+              <div  className="link"><Link to="/Costumer">Costumer</Link></div> 
             </li>
           </div>
           <div className="list-documents">
@@ -42,7 +42,7 @@ const Sidebar = () => {
             <li className="p-2 d-flex align-items-center">
            
               <div>   <AiFillProduct size={20} /></div>
-              <div  className="link"><Link to="/invoice">Product</Link></div> 
+              <div  className="link"><Link to="/Product">Product</Link></div> 
             </li>
           </div>
         </ul>
